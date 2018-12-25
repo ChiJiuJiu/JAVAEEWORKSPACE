@@ -1,0 +1,11 @@
+package edu.yctc.genesis.entity;
+
+public class equipment {
+	/** 设备id*/
+	private long id;
+	/** 设备号*/
+	private String number;
+	/** 设备名*/
+	private String name;
+	
+}

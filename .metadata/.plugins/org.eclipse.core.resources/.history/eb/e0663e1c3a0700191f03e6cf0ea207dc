@@ -1,0 +1,11 @@
+package edu.yctc.genesis.entity;
+
+public class tb_student_course {
+	/** 主键*/
+	private long id;
+	/** 用户id*/
+	private long user_id;
+	/** 课程id*/
+	private long course_id;
+	
+}

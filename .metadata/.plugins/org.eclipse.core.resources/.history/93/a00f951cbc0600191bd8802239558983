@@ -1,0 +1,74 @@
+package edu.yctc.genesis.entity;
+
+import java.util.Date;
+
+public class Course {
+	/** 课程id*/
+	private long   id;
+	/** 课程号*/
+	private String number;
+	/** 课程名*/
+	private String name;
+	/** 课程课时总数*/
+	private int    lesson_sum;
+	/** 开课学年*/
+	private Date   year;
+	/** 开课学期*/
+	private int    term;
+	private String profession;
+	private String classes;
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
+	public String getNumber() {
+		return number;
+	}
+	public void setNumber(String number) {
+		this.number = number;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getLesson_sum() {
+		return lesson_sum;
+	}
+	public void setLesson_sum(int lesson_sum) {
+		this.lesson_sum = lesson_sum;
+	}
+	public Date getYear() {
+		return year;
+	}
+	public void setYear(Date year) {
+		this.year = year;
+	}
+	public int getTerm() {
+		return term;
+	}
+	public void setTerm(int term) {
+		this.term = term;
+	}
+	public String getProfession() {
+		return profession;
+	}
+	public void setProfession(String profession) {
+		this.profession = profession;
+	}
+	public String getClasses() {
+		return classes;
+	}
+	public void setClasses(String classes) {
+		this.classes = classes;
+	}
+	@Override
+	public String toString() {
+		return "Course [id=" + id + ", number=" + number + ", name=" + name + ", lesson_sum=" + lesson_sum + ", year="
+				+ year + ", term=" + term + ", profession=" + profession + ", classes=" + classes + "]";
+	}
+	
+}

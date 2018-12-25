@@ -1,0 +1,33 @@
+package edu.yctc.genesis.entity;
+
+public class student_course {
+	/** 主键*/
+	private long id;
+	/** 用户id*/
+	private long user_id;
+	/** 课程id*/
+	private long course_id;
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
+	public long getUser_id() {
+		return user_id;
+	}
+	public void setUser_id(long user_id) {
+		this.user_id = user_id;
+	}
+	public long getCourse_id() {
+		return course_id;
+	}
+	public void setCourse_id(long course_id) {
+		this.course_id = course_id;
+	}
+	@Override
+	public String toString() {
+		return "tb_student_course [id=" + id + ", user_id=" + user_id + ", course_id=" + course_id + "]";
+	}
+	
+}

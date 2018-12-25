@@ -1,0 +1,50 @@
+package edu.yctc.genesis.entity;
+
+public class Class_scoreDO {
+	/** 主键*/
+	private long   id;
+	/** 用户id*/
+	private long   user_id;
+	/** 课时id*/
+	private long   lesson_id;
+	/** 得分*/
+	private double score;
+	/** 排名*/
+	private long   rank;
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
+	public long getUser_id() {
+		return user_id;
+	}
+	public void setUser_id(long user_id) {
+		this.user_id = user_id;
+	}
+	public long getLesson_id() {
+		return lesson_id;
+	}
+	public void setLesson_id(long lesson_id) {
+		this.lesson_id = lesson_id;
+	}
+	public double getScore() {
+		return score;
+	}
+	public void setScore(double score) {
+		this.score = score;
+	}
+	
+	public long getRank() {
+		return rank;
+	}
+	public void setRank(long rank) {
+		this.rank = rank;
+	}
+	@Override
+	public String toString() {
+		return "class_score [id=" + id + ", user_id=" + user_id + ", lesson_id=" + lesson_id + ", score=" + score + "]";
+	}
+	
+}

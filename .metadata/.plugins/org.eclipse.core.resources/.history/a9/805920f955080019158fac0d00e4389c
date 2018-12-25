@@ -1,0 +1,12 @@
+package edu.yctc.genesis.dao;
+
+import org.apache.ibatis.annotations.Mapper;
+
+import edu.yctc.genesis.entity.Permission_userDO;
+
+@Mapper
+public interface Permission_userDAO {
+	public void insert(Permission_userDO permission_userDO);
+	
+	public Permission_userDO getPermissionByUserId(long user_id);
+}

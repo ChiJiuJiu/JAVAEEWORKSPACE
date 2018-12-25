@@ -1,0 +1,11 @@
+package edu.yctc.genesis.entity;
+
+public class classroom {
+	/** 教室id*/
+	private long   id;
+	/** 教室号*/
+	private String number;
+	/** 设备id*/
+	private long   equipment_id;
+	
+}

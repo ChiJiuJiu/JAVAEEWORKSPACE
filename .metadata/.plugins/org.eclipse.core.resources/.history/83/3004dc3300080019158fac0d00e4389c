@@ -1,0 +1,22 @@
+package edu.yctc.genesis.dao;
+
+import org.apache.ibatis.annotations.Mapper;
+
+@Mapper
+public interface ClassroomDAO {
+	public interface Classroom_stateDAO {
+		/**
+		 * 插入一条课堂使用记录
+		 * 
+		 * @param classroom_stateDO
+		 */
+		
+		public void insert(Classroom_stateDO classroom_stateDO);
+		/**
+		 * 教室id查询教室使用情况
+		 * 
+		 * @param  classroom_id
+		 * @return
+		 */
+		public Classroom_stateDO getStateByClassroomId(long classroom_id);
+}

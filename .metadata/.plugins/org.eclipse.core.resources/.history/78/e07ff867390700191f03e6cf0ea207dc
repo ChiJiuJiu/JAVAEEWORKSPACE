@@ -1,0 +1,11 @@
+package edu.yctc.genesis.entity;
+
+public class permission_group_permission {
+	/** 主键*/
+	private long id;
+	/** 权限组id*/
+	private long permission_group_id;
+	/** 权限id*/
+	private long permission_id;
+	
+}

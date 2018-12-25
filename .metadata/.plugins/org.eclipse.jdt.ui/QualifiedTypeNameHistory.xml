@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
+<fullyQualifiedTypeName name="org.springframework.boot.SpringApplication"/>
+<fullyQualifiedTypeName name="myproject.App"/>
+<fullyQualifiedTypeName name="myproject.HelloWorld"/>
+<fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.SpringBootApplication"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.annotations.Param"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="edu.yctc.genesis.entity.CourseDO"/>
+<fullyQualifiedTypeName name="edu.yctc.genesis.entity.AttendanceDO"/>
+<fullyQualifiedTypeName name="edu.yctc.genesis.dao.Class_scoreDAO"/>
+<fullyQualifiedTypeName name="edu.yctc.genesis.entity.Classroom_stateDO"/>
+<fullyQualifiedTypeName name="edu.yctc.genesis.entity.EquipmentDO"/>
+<fullyQualifiedTypeName name="edu.yctc.genesis.entity.UserDO"/>
+<fullyQualifiedTypeName name="edu.yctc.genesis.entity.LessonDO"/>
+<fullyQualifiedTypeName name="edu.yctc.genesis.entity.Class_scoreDO"/>
+<fullyQualifiedTypeName name="edu.yctc.genesis.dao.UserDAO"/>
+<fullyQualifiedTypeName name="edu.yctc.genesis.entity.ClassroomDO"/>
+<fullyQualifiedTypeName name="edu.yctc.genesis.entity.PermissionDO"/>
+<fullyQualifiedTypeName name="edu.yctc.genesis.entity.Permission_groupDO"/>
+<fullyQualifiedTypeName name="edu.yctc.genesis.dao.Permission_group_permissionDAO"/>
+<fullyQualifiedTypeName name="edu.yctc.genesis.entity.Permission_group_permissionDO"/>
+<fullyQualifiedTypeName name="edu.yctc.genesis.dao.Permission_userDAO"/>
+<fullyQualifiedTypeName name="edu.yctc.genesis.entity.Permission_userDO"/>
+<fullyQualifiedTypeName name="edu.yctc.genesis.entity.Student_courseDO"/>
+<fullyQualifiedTypeName name="edu.yctc.genesis.entity.Student_stateDO"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.annotations.Mapper"/>
+<fullyQualifiedTypeName name="edu.yctc.genesis.entity.Teacher_lessonDO"/>
+</qualifiedTypeNameHistroy>

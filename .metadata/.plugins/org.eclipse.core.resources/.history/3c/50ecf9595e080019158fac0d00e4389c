@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.yctc.genesis.dao.Student_stateDAO">
+	<resultMap type="edu.yctc.genesis.entity.Student_stateDO" id="Student_stateDO">
+		<id column="id" property="id" jdbcType="BIGINT"/>
+		<result column="user_id" property="user_id"/>
+		<result column="lesson_id" property="lesson_id"/>
+		<result column="state" property="state"/>
+		<result column="scan_start_time" property="scan_start_time"/>
+		<result column="scan_end_time" property="scan_end_time"/>
+		<result column="face_token" property="face_token"/>
+	</resultMap>
+	
+	<insert id="insert" parameterType="edu.yctc.genesis.entity.Student_stateDO">
+		<selectKey keyProperty="id" order="AFTER" resultType="long">
+			SELECT LAST_INSERT_ID()
+		</selectKey>
+		INSERT INTO tb_student_state(
+			user_id,
+			lesson_id,
+			state,
+			now(),
+			scan_end_time,
+			face_token
+		) VALUES(
+			#{user_id},
+			#{lesson_id},
+			#{state},
+			#{scan_start_time},
+			#{scan_end_time},
+			#{face_token}
+		);
+	</insert>
+	
+	<select id="getStudentStateByUserId" parameterType="long" resultMap="Student_stateDO">
+		SELECT
+			id,
+			user_id,
+			lesson_id,
+			state,
+			scan_start_time,
+			scan_end_time,
+			face_token
+		FROM tb_student_state WHERE
+			user_id = #{user_id}
+	</select>
+</mapper>

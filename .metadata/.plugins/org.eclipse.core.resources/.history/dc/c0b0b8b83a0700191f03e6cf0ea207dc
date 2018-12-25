@@ -1,0 +1,13 @@
+package edu.yctc.genesis.entity;
+
+import java.util.Date;
+
+public class student_state {
+	private long id;
+	private long user_id;
+	private long lesson_id;
+	private int  state;
+	private Date scan_start_time;
+	private Date scan_end_time;
+	private String face_token;
+}

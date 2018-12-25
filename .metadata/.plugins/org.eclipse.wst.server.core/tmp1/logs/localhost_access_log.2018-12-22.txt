@@ -1,0 +1,2 @@
+127.0.0.1 - - [22/Dec/2018:13:47:16 +0800] "GET / HTTP/1.1" 404 1068
+0:0:0:0:0:0:0:1 - - [22/Dec/2018:13:47:17 +0800] "GET /genesis/WEB-INF/classes/edu/yctc/genesis/service/impl/UserServiceImpl.java HTTP/1.1" 404 1042

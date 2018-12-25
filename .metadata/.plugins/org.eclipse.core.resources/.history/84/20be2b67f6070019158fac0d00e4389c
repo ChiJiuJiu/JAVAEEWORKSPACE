@@ -1,0 +1,5 @@
+package edu.yctc.genesis.dao;
+
+public interface AttendanceDAO {
+
+}

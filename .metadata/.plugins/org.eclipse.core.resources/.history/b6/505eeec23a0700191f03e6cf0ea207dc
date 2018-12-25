@@ -1,0 +1,21 @@
+package edu.yctc.genesis.entity;
+
+import java.util.Date;
+
+public class student_state {
+	/** 主键*/
+	private long id;
+	/** 用户id*/
+	private long user_id;
+	/** 课时id*/
+	private long lesson_id;
+	/** 上课状态*/
+	private int  state;
+	/** 扫描开始时间*/
+	private Date scan_start_time;
+	/** 扫描结束时间*/
+	private Date scan_end_time;
+	/** 人脸标识*/
+	private String face_token;
+	
+}

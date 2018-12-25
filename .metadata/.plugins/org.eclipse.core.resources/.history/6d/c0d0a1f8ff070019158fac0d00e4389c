@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.yctc.genesis.dao.ClassroomDAO">
+	<resultMap type="edu.yctc.genesis.entity.ClassroomDO" id="ClassroomDO">
+		<id column="id" property="id" jdbcType="BIGINT"/>
+		<result column="number" property="number"/>
+		<result column="equipment_id" property="equipment_id"/>
+	</resultMap>
+	
+	<insert id="insert" parameterType="edu.yctc.genesis.entity.ClassroomDO">
+		<selectKey keyProperty="id" order="AFTER" resultType="long">
+			SELECT LAST_INSERT_ID()
+		</selectKey>
+		INSERT INTO tb_class_score(
+			number,
+			equipment_id,
+		) VALUES(
+			#{number},
+			#{equipment_id},
+		);
+	</insert>
+	
+	<select id="getClassroomById" parameterType="long" resultMap="ClassroomDO">
+		SELECT
+			id,
+			user_id,
+			lesson_id,
+			score
+		FROM tb_class_score WHERE
+			user_id = #{user_id}
+	</select>
+</mapper>

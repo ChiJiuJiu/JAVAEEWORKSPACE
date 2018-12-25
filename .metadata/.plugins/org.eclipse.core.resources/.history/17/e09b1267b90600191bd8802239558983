@@ -1,0 +1,25 @@
+package edu.yctc.genesis.entity;
+
+import java.util.Date;
+
+public class User {
+	/** 用户id */
+    private long   id;
+    /** 学号/工号*/
+    private String number;
+    /** 密码 */
+    private String password;
+    /** 姓名 */
+    private String name;
+    /** user类型*/
+    private int    type;
+    /** 性别*/
+    private String sex;
+    
+    
+    /** 创建时间 */
+    private Date   gmtCreated;
+    /** 修改时间 */
+    private Date   gmtModified;
+    
+}

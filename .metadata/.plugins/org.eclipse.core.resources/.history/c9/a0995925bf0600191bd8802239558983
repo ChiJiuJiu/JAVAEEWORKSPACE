@@ -1,0 +1,9 @@
+package edu.yctc.genesis.entity;
+
+public class permission {
+	/** 权限id*/
+	private long   id;
+	/** 权限名*/
+	private String name;
+	
+}

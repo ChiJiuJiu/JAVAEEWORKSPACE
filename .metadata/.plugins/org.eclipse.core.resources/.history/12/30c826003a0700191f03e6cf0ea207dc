@@ -1,0 +1,5 @@
+package edu.yctc.genesis.entity;
+
+public class tb_student_course {
+	
+}

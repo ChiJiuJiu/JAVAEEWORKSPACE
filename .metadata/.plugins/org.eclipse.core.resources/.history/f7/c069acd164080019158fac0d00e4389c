@@ -1,0 +1,13 @@
+package edu.yctc.genesis.dao;
+
+import org.apache.ibatis.annotations.Mapper;
+
+import edu.yctc.genesis.entity.Teacher_lessonDO;
+
+@Mapper
+public interface Teacher_lessonDAO {
+	public void insert(Teacher_lessonDO teacher_lessonDO);
+	
+	
+	public Teacher_lessonDO getLessonByTeacherId(long user_id);
+}

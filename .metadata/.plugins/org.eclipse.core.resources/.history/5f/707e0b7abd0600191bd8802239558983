@@ -1,0 +1,12 @@
+package edu.yctc.genesis.entity;
+
+import java.util.Date;
+
+public class lesson {
+	private long id;
+	private long course_id;
+	private String number;
+	private long classroom_id;
+	private Date begin;
+	private Date end;
+}

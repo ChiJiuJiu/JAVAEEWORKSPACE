@@ -1,0 +1,39 @@
+package edu.yctc.genesis.dao;
+
+import edu.yctc.genesis.entity.UserDO;
+import org.apache.ibatis.annotations.Mapper;
+
+@Mapper
+public interface UserDAO {
+
+    /**
+      * 插入一个用户
+     *
+     * @param userDO
+     */
+    public void insert(UserDO userDO);
+
+    /**
+     * id查询用户
+     *
+     * @param id
+     * @return
+     */
+    public UserDO getUserById(long id);
+
+    /**
+     * 用户名和密码验证用户
+     *
+     * @param para
+     * @return
+     */
+    public UserDO getUserByUsernameAndPassword(String username, String password);
+    
+    /**
+     * 用户id查询该用户所有课时
+     * 
+     * @param id
+     * @return
+     */
+    public UserDO getLessonByUserId(long id);
+}

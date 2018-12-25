@@ -1,0 +1,8 @@
+package edu.yctc.genesis.entity;
+
+public class attendance {
+	private long id;
+	private long user_id;
+	private int  lesson_id;
+	private int  attend_state;
+}

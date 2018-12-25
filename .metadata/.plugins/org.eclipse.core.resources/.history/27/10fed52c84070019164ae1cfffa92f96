@@ -1,0 +1,12 @@
+package edu.yctc.genesis.entity;
+
+public class classroom_state {
+	/** 主键*/
+	private long id;
+	/** 教室id*/
+	private long classroom_id;
+	/** 课时id*/
+	private long lesson_id;
+	/** 占用状态*/
+	private int  using;
+}
