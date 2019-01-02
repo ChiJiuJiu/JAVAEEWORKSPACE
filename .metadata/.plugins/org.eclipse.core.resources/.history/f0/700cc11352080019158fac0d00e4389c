@@ -1,5 +1,0 @@
-package edu.yctc.genesis.dao;
-
-public interface Permission_groupDAO {
-
-}

@@ -1,7 +1,0 @@
-package edu.yctc.genesis.entity;
-
-public class equipment {
-	private long id;
-	private String number;
-	private String name;
-}

@@ -11,10 +11,6 @@
 <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.SpringBootApplication"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
 <fullyQualifiedTypeName name="org.apache.ibatis.annotations.Param"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.sql.Date"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="edu.yctc.genesis.entity.CourseDO"/>
 <fullyQualifiedTypeName name="edu.yctc.genesis.entity.AttendanceDO"/>
 <fullyQualifiedTypeName name="edu.yctc.genesis.dao.Class_scoreDAO"/>
@@ -23,7 +19,6 @@
 <fullyQualifiedTypeName name="edu.yctc.genesis.entity.UserDO"/>
 <fullyQualifiedTypeName name="edu.yctc.genesis.entity.LessonDO"/>
 <fullyQualifiedTypeName name="edu.yctc.genesis.entity.Class_scoreDO"/>
-<fullyQualifiedTypeName name="edu.yctc.genesis.dao.UserDAO"/>
 <fullyQualifiedTypeName name="edu.yctc.genesis.entity.ClassroomDO"/>
 <fullyQualifiedTypeName name="edu.yctc.genesis.entity.PermissionDO"/>
 <fullyQualifiedTypeName name="edu.yctc.genesis.entity.Permission_groupDO"/>
@@ -35,4 +30,19 @@
 <fullyQualifiedTypeName name="edu.yctc.genesis.entity.Student_stateDO"/>
 <fullyQualifiedTypeName name="org.apache.ibatis.annotations.Mapper"/>
 <fullyQualifiedTypeName name="edu.yctc.genesis.entity.Teacher_lessonDO"/>
+<fullyQualifiedTypeName name="org.mockito.exceptions.verification.NoInteractionsWanted"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.support.BeanDefinitionOverrideException"/>
+<fullyQualifiedTypeName name="javax.swing.BoundedRangeModel"/>
+<fullyQualifiedTypeName name="org.springframework.dao.DataAccessResourceFailureException"/>
+<fullyQualifiedTypeName name="java.text.DateFormat"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="edu.yctc.genesis.dao.UserDAO"/>
+<fullyQualifiedTypeName name="java.util.TimeZone"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.sql.PseudoColumnUsage"/>
+<fullyQualifiedTypeName name="java.security.Timestamp"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>

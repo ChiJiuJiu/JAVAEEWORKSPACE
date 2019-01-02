@@ -1,7 +1,0 @@
-package edu.yctc.genesis.entity;
-
-public class permission_group_permission {
-	private long id;
-	private long permission_group_id;
-	private long permission_id;
-}

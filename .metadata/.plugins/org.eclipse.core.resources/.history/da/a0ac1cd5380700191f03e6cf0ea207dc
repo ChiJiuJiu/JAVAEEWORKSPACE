@@ -1,8 +1,0 @@
-package edu.yctc.genesis.entity;
-
-public class classroom_state {
-	private long id;
-	private long classroom_id;
-	private long lesson_id;
-	private int  using;
-}

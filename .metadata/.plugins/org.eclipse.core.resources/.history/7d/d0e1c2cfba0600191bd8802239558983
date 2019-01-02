@@ -1,9 +1,0 @@
-package edu.yctc.genesis.entity;
-
-public class Course {
-	private long   id;
-	private String number;
-	private String name;
-	private int    lesson_sum;
-	private Date
-}
