@@ -16,7 +16,6 @@
 <fullyQualifiedTypeName name="edu.yctc.genesis.dao.Class_scoreDAO"/>
 <fullyQualifiedTypeName name="edu.yctc.genesis.entity.Classroom_stateDO"/>
 <fullyQualifiedTypeName name="edu.yctc.genesis.entity.EquipmentDO"/>
-<fullyQualifiedTypeName name="edu.yctc.genesis.entity.UserDO"/>
 <fullyQualifiedTypeName name="edu.yctc.genesis.entity.LessonDO"/>
 <fullyQualifiedTypeName name="edu.yctc.genesis.entity.Class_scoreDO"/>
 <fullyQualifiedTypeName name="edu.yctc.genesis.entity.ClassroomDO"/>
@@ -35,14 +34,15 @@
 <fullyQualifiedTypeName name="javax.swing.BoundedRangeModel"/>
 <fullyQualifiedTypeName name="org.springframework.dao.DataAccessResourceFailureException"/>
 <fullyQualifiedTypeName name="java.text.DateFormat"/>
-<fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="edu.yctc.genesis.dao.UserDAO"/>
 <fullyQualifiedTypeName name="java.util.TimeZone"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.sql.PseudoColumnUsage"/>
 <fullyQualifiedTypeName name="java.security.Timestamp"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.sql.Date"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="edu.yctc.genesis.entity.UserDO"/>
 </qualifiedTypeNameHistroy>
