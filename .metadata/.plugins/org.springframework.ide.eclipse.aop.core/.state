@@ -2,5 +2,6 @@
 <aop-reference-model>
 <aop-project name="demo"/>
 <aop-project name="face_show"/>
+<aop-project name="springboot-websocket-chat"/>
 <aop-project name="Genesis"/>
 </aop-reference-model>
