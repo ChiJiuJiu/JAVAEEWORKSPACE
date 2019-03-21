@@ -3,5 +3,7 @@
 <aop-project name="demo"/>
 <aop-project name="face_show"/>
 <aop-project name="springboot-websocket-chat"/>
+<aop-project name="shiro"/>
+<aop-project name="mayday"/>
 <aop-project name="Genesis"/>
 </aop-reference-model>

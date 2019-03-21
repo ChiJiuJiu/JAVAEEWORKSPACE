@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+<typeInfo handle="=Genesis/src\/main\/java&lt;edu.yctc.genesis.controller{MetadataController.java[MetadataController" modifiers="513" timestamp="1552399001295"/>
+<typeInfo handle="=Genesis/src\/main\/java&lt;edu.yctc.genesis.controller.rest{MetadataRestController.java[MetadataRestController" modifiers="513" timestamp="1552920356227"/>
+<typeInfo handle="=Genesis/src\/main\/java&lt;edu.yctc.genesis.controller.rest{NewsRestController.java[NewsRestController" modifiers="513" timestamp="1552399004827"/>
+<typeInfo handle="=Genesis/src\/main\/java&lt;edu.yctc.genesis.controller.rest{WarpperRestController.java[WarpperRestController" modifiers="513" timestamp="1552399004017"/>
+</typeInfoHistroy>

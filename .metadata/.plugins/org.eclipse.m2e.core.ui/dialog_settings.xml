@@ -31,11 +31,14 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="F:\JAVAEEWORKSPACE\shiro"/>
+			<item value="F:\JAVAEEWORKSPACE\roncoo-education"/>
+			<item value="F:\JAVAEEWORKSPACE\mayday"/>
+			<item value="C:\Users\15272\Desktop\Genesis"/>
+			<item value="F:\JAVAEEWORKSPACE\Genesis"/>
 			<item value="C:\Users\15272\Desktop\springboot-websocket-chat"/>
 			<item value="F:\SpringBoot实现QQ\nyist_chat_project"/>
-			<item value="F:\JAVAEEWORKSPACE\Genesis"/>
 			<item value="C:\Users\15272\Desktop\SpringSample"/>
-			<item value="C:\Users\15272\Desktop\Genesis"/>
 			<item value="C:\Users\15272\Desktop\fwwb"/>
 			<item value="C:\Users\15272\Desktop\Genesis111"/>
 			<item value="C:\Users\15272\Desktop\服务外包\Genesis"/>
