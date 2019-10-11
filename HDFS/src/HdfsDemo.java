@@ -25,7 +25,7 @@ public class HdfsDemo {
         // conf.set("fs.defaultFS", "hdfs://node01:9000");
         // 拿到一个文件系统操作的客户端实例对象
         // fs = FileSystem.get(conf);
-        fs = FileSystem.get(new URI("hdfs://node01:9000"), conf, "root");
+        fs = FileSystem.get(new URI("hdfs://node1:9000"), conf, "root");
 
     }
 
@@ -39,6 +39,8 @@ public class HdfsDemo {
     // 下载
     @Test
     public void testDownload() throws Exception {
+        // 先在hdfs中创建aa.txt
+        // hdfs dfs -touchz hdfs://node1:9000/aa.txt
         fs.copyToLocalFile(new Path("/aa.txt"), new Path("f:/"));
     }
 
