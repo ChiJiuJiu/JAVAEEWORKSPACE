@@ -20,7 +20,7 @@ public class HdfsStreamDemo {
         conf = new Configuration();
         // fs = FileSystem.get(conf);
         // 拿到Hdfs的客户端，它其实就相当于（hadoop fs 命令）
-        fs = FileSystem.get(new URI("hdfs://node01:9000"), conf, "root");
+        fs = FileSystem.get(new URI("hdfs://node1:9000"), conf, "root");
     }
 
     @Test
@@ -42,7 +42,7 @@ public class HdfsStreamDemo {
     @Test
     public void testRandom() throws Exception {
         FSDataInputStream in = fs.open(new Path("/a.txt"));
-        in.seek(50);
+//        in.seek(100);
         FileOutputStream out = new FileOutputStream("f:/a.txt");
         IOUtils.copy(in, out);
     }
