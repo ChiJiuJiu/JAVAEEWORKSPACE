@@ -31,6 +31,9 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="F:\JAVAEEWORKSPACE\hce"/>
+			<item value="F:\JAVAEEWORKSPACE\hce-server"/>
+			<item value="F:\HCE\hce-server"/>
 			<item value="F:\JAVAEEWORKSPACE\shiro"/>
 			<item value="F:\JAVAEEWORKSPACE\roncoo-education"/>
 			<item value="F:\JAVAEEWORKSPACE\mayday"/>
@@ -43,8 +46,6 @@
 			<item value="C:\Users\15272\Desktop\Genesis111"/>
 			<item value="C:\Users\15272\Desktop\服务外包\Genesis"/>
 			<item value="C:\Users\15272\Desktop\中小企业电子商务云平台\Genesis"/>
-			<item value="C:\Users\15272\Desktop\face.putop.top-master"/>
-			<item value="C:\Users\15272\Desktop\demo"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

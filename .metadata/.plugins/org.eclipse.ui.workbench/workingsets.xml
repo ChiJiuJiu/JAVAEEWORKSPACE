@@ -5,5 +5,11 @@
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1536477397812_1" label="Java Test Sources" name="test"/>
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1550245035448_3" label="roncoo-education" name="roncoo-education"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1559047986110_4" label="hce-parent" name="hce-parent">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/hce-server" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/hce-agent" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/hce-common" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/hce" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1536477413241_2" label="Window Working Set" name="Aggregate for window 1536477413241"/>
 </workingSetManager>

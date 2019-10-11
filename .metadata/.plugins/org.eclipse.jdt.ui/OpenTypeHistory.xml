@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
 <typeInfo handle="=Genesis/src\/main\/java&lt;edu.yctc.genesis.controller{MetadataController.java[MetadataController" modifiers="513" timestamp="1552399001295"/>
-<typeInfo handle="=Genesis/src\/main\/java&lt;edu.yctc.genesis.controller.rest{MetadataRestController.java[MetadataRestController" modifiers="513" timestamp="1552920356227"/>
-<typeInfo handle="=Genesis/src\/main\/java&lt;edu.yctc.genesis.controller.rest{NewsRestController.java[NewsRestController" modifiers="513" timestamp="1552399004827"/>
+<typeInfo handle="=Genesis/src\/main\/java&lt;edu.yctc.genesis.controller.rest{MetadataRestController.java[MetadataRestController" modifiers="513" timestamp="1554380531181"/>
+<typeInfo handle="=Genesis/src\/main\/java&lt;edu.yctc.genesis.controller.rest{NewsRestController.java[NewsRestController" modifiers="513" timestamp="1553939257253"/>
 <typeInfo handle="=Genesis/src\/main\/java&lt;edu.yctc.genesis.controller.rest{WarpperRestController.java[WarpperRestController" modifiers="513" timestamp="1552399004017"/>
+<typeInfo handle="=hce-server/src\/main\/java&lt;com.iteknical.hce.server.controller.rest{UserRestController.java[UserRestController" modifiers="513" timestamp="1568764826026"/>
+<typeInfo handle="=Origin/src\/main\/java&lt;edu.yctc.origin.controller{IndexController.java[IndexController" modifiers="513" timestamp="1560358954477"/>
+<typeInfo handle="=Origin/src\/main\/java&lt;edu.yctc.origin.controller{MetadataController.java[MetadataController" modifiers="513" timestamp="1560054464756"/>
+<typeInfo handle="=Origin/src\/main\/java&lt;edu.yctc.origin.service{MetadataIService.java[MetadataIService" modifiers="513" timestamp="1560186375634"/>
 </typeInfoHistroy>

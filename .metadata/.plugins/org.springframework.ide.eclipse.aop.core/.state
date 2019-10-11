@@ -2,8 +2,11 @@
 <aop-reference-model>
 <aop-project name="demo"/>
 <aop-project name="face_show"/>
+<aop-project name="hce-server"/>
+<aop-project name="hce-agent"/>
 <aop-project name="springboot-websocket-chat"/>
 <aop-project name="shiro"/>
-<aop-project name="mayday"/>
+<aop-project name="Origin"/>
 <aop-project name="Genesis"/>
+<aop-project name="mayday"/>
 </aop-reference-model>
