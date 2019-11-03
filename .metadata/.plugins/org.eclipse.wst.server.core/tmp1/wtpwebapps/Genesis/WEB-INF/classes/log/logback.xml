@@ -39,69 +39,11 @@
 		</encoder>
 	</appender>
 
-	<appender name="userRestControllerLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<file>${LOG_HOME}/userRestController.log</file>
-		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-			<fileNamePattern>${LOG_HOME}/userRestController.%d{yyyy-MM-dd}.log</fileNamePattern>
-		</rollingPolicy>
-		<encoder>
-			<pattern>
-				%d{yyyy-MM-dd HH:mm:ss.SSS} %p (%file:%line\)- %m%n
-			</pattern>
-			<charset>UTF-8</charset>
-		</encoder>
-	</appender>
+	<!-- 开发阶段日志全部输出到控制台方便观察 -->
+	<!-- service层日志 <logger name="serviceLogger" additivity="false"> <level value="INFO" /> <appender-ref ref="serviceLog" /> </logger> -->
 
-	<appender name="messageServiceLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<file>${LOG_HOME}/messageServiceLog.log</file>
-		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-			<fileNamePattern>${LOG_HOME}/messageService.%d{yyyy-MM-dd}.log</fileNamePattern>
-		</rollingPolicy>
-		<encoder>
-			<pattern>
-				%d{yyyy-MM-dd HH:mm:ss.SSS} %p (%file:%line\)- %m%n
-			</pattern>
-			<charset>UTF-8</charset>
-		</encoder>
-	</appender>
+	<!-- controller层日志 <logger name="controllerLogger" additivity="false"> <level value="INFO" /> <appender-ref ref="controllerLog" /> </logger> -->
 
-	<appender name="newsServiceLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<file>${LOG_HOME}/newsServiceLog.log</file>
-		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-			<fileNamePattern>${LOG_HOME}/newsService.%d{yyyy-MM-dd}.log</fileNamePattern>
-		</rollingPolicy>
-		<encoder>
-			<pattern>
-				%d{yyyy-MM-dd HH:mm:ss.SSS} %p (%file:%line\)- %m%n
-			</pattern>
-			<charset>UTF-8</charset>
-		</encoder>
-	</appender>
-
-	<logger name="serviceLogger" additivity="false">
-		<level value="INFO" />
-		<appender-ref ref="serviceLog" />
-	</logger>
-
-	<logger name="controllerLogger" additivity="false">
-		<level value="INFO" />
-		<appender-ref ref="controllerLog" />
-	</logger>
-
-	<logger name="userRestControllerLogger" additivity="false">
-		<level value="INFO" />
-		<appender-ref ref="userRestControllerLog" />
-	</logger>
-
-	<logger name="messageServiceLogger" additivity="false">
-		<level value="INFO" />
-		<appender-ref ref="messageServiceLog" />
-	</logger>
-
-	<logger name="newsServiceLogger" additivity="false">
-		<level value="INFO" />
-		<appender-ref ref="newsServiceLog" />
-	</logger>
 	<!-- 控制台输出日志 -->
 	<root level="info">
 		<appender-ref ref="STDOUT" />

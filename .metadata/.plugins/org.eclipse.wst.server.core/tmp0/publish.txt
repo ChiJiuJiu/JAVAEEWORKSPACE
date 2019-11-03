@@ -1,3 +1,0 @@
-#Tomcat publish data
-#Sat Sep 15 22:11:21 CST 2018
-org.eclipse.jst.jee.server\:myWeb=D\:\\Tomcat 8.5\\wtpwebapps\\myWeb
