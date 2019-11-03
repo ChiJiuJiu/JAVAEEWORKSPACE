@@ -4,6 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Genesis" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Origin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hce" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/hce-server" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/mayday" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/roncoo-education" vcs="Git" />
